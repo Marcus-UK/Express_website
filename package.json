@@ -15,7 +15,7 @@
   "dependencies": {
     "body-parser": "*",
     "express": "*",
-    "pug": "*",
+    "pug": "2.0.0-alpha6",
     "nodemailer": "*"
   },
   "bugs": {
