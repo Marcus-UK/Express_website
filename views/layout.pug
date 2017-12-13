@@ -1,6 +1,6 @@
 html
   head
-    title Jumbotron Template for Bootstrap
+    title Express website
     // Bootstrap core CSS
     link(href='/stylesheets/bootstrap.css', rel='stylesheet')
     // IE10 viewport hack for Surface/desktop Windows 8 bug
@@ -16,7 +16,7 @@ html
       script(src='https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js')
       script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
   body
-    nav.navbar.navbar-inverse.navbar-fixed-top
+    nav.navbar.navbar-inverse
       .container
         .navbar-header
           button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
@@ -34,11 +34,12 @@ html
             li
               a(href='/Contact') Contact
         // /.navbar-collapse
-    block content
-    hr
-    footer
-        p(class='text-center' ) © 2016 Company, Inc.
-    // /container
+    .container
+        block content
+        hr
+        footer
+            p(class='text-center' ) © 2017 Express Website Solutions, Inc.
+        // /container
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
     script.
       window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\\/script>')
