@@ -28,8 +28,8 @@ app.post('/contact/send', function(req, res){
     var transporter = nodeMailer.createTransport({
         service: 'Outlook',
         auth: {
-            user: 'marcus_node@outlook.com',
-            pass: 'Sheffield109'
+            user: 'your email',
+            pass: 'your email password'
         }
     });
 
