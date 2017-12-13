@@ -11,7 +11,7 @@ This is a simple website built using Node and Express.
 4. run 'Node app.js' from your command line.
 5. In your web browser, visit 'localhost:3000'.
 
-#Technologies used in this project
+# Technologies used in this project
 
 - Javascript
 - Node.js
